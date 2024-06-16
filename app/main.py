@@ -13,7 +13,7 @@ app = FastAPI()
 
 # load config json
 
-with open("../config/config.json") as f:
+with open("./config/config.json") as f:
     config = json.load(f)
 
 
